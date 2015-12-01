@@ -157,7 +157,7 @@ SELECT name FROM users;
 
 -- 2. Select the names of all shows that cost less than £15.
 \echo '2. Select the names of all shows that cost less than £15.'
-SELECT name FROM shows WHERE price > 15;
+SELECT name FROM shows WHERE price < 15;
 
 -- 3. Insert a user with the name "Val Gibson" into the users table.
 \echo '3. Insert a user with the name "Val Gibson" into the users table.'
